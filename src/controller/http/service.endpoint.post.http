@@ -1,0 +1,62 @@
+POST http://localhost:3000/api/service
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ0ZXN0QG1haWwuY29tIiwiaWF0IjoxNzYyOTQ0Njk2LCJleHAiOjE3NjMwMzEwOTZ9.Z-vieqUZx3mSD0B5R0Z62-tUtK6wEJXMnegTyv_6hvw
+
+[
+  {
+    "service_code": "PULSA",
+    "service_name": "Isi Pulsa",
+    "service_icon": "/icons/pulsa.png",
+    "service_tariff": 50000
+  },
+  {
+    "service_code": "GAME",
+    "service_name": "Voucher Game",
+    "service_icon": "/icons/game.png",
+    "service_tariff": 75000
+  },
+  {
+    "service_code": "PDAM",
+    "service_name": "PDAM Water Bill",
+    "service_icon": "/icons/pdam.png",
+    "service_tariff": 100000
+  }
+]
+
+
+POST http://localhost:3000/api/service/banner
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0QG1haWwuY29tIiwiaWF0IjoxNzYyOTU5OTEyLCJleHAiOjE3NjMwNDYzMTJ9.FUfILNvPys1XfQA0wGRQvrG-ToAsAFNz-cqodXF_BfU
+
+[
+    {
+      "banner_name": "Banner 1",
+      "banner_image": "https://nutech-integrasi.app/dummy.jpg",
+      "description": "Lerem Ipsum Dolor sit amet"
+    },
+    {
+      "banner_name": "Banner 2",
+      "banner_image": "https://nutech-integrasi.app/dummy.jpg",
+      "description": "Lerem Ipsum Dolor sit amet"
+    },
+    {
+      "banner_name": "Banner 3",
+      "banner_image": "https://nutech-integrasi.app/dummy.jpg",
+      "description": "Lerem Ipsum Dolor sit amet"
+    },
+    {
+      "banner_name": "Banner 4",
+      "banner_image": "https://nutech-integrasi.app/dummy.jpg",
+      "description": "Lerem Ipsum Dolor sit amet"
+    },
+    {
+      "banner_name": "Banner 5",
+      "banner_image": "https://nutech-integrasi.app/dummy.jpg",
+      "description": "Lerem Ipsum Dolor sit amet"
+    },
+    {
+      "banner_name": "Banner 6",
+      "banner_image": "https://nutech-integrasi.app/dummy.jpg",
+      "description": "Lerem Ipsum Dolor sit amet"
+    }
+]
