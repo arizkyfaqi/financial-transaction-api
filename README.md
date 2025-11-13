@@ -28,7 +28,7 @@ Dibangun menggunakan **Node.js (Express.js)** dan **PostgreSQL (Prisma ORM)** de
 ### Clone Repository
 
 ```bash
-git clone https://github.com/username/finance-api.git
+git clone https://github.com/arizkyfaqi/financial-transaction-api.git
 cd finance-api
 npm install
 ```
