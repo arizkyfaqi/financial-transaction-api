@@ -50,7 +50,7 @@ npx prisma migrate dev --name init
 npx prisma generate
 ```
 
-### Setup Database
+### Run Application
 
 ```
 npm run dev
@@ -62,7 +62,7 @@ npm run dev
 http://localhost:3000/api-docs
 ```
 
-## Swagger API Documentation
+## Location file uploads
 
 ```
 /uploads/profile/
