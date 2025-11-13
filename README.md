@@ -1,6 +1,6 @@
 # Financial Transaction API
 
-REST API untuk layanan **transaksi keuangan digital**, mencakup fitur registrasi, login, cek saldo, top up, pembayaran (pulsa, voucher, listrik, dll), serta pengelolaan profil pengguna.  
+REST API untuk layanan **transaksi keuangan**, mencakup fitur registrasi, login, cek saldo, top up, pembayaran (pulsa, voucher, listrik, dll), serta pengelolaan profil pengguna.  
 Dibangun menggunakan **Node.js (Express.js)** dan **PostgreSQL (Prisma ORM)** dengan autentikasi berbasis **JWT**.
 
 ---
