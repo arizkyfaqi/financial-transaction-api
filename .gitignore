@@ -9,7 +9,6 @@ node_modules/
 
 # Prisma
 prisma/dev.db
-prisma/migrations/
 *.db-journal
 
 # Logs
