@@ -29,7 +29,7 @@ Dibangun menggunakan **Node.js (Express.js)** dan **PostgreSQL (Prisma ORM)** de
 
 ```bash
 git clone https://github.com/arizkyfaqi/financial-transaction-api.git
-cd finance-api
+cd financial-transaction-api
 npm install
 ```
 
